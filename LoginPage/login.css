@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /*cima, direito, baixo, esquerda*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(211, 211, 211);
+}
+
+.header
+{
+    width: 100vw;
+    font-size: 24;
+    color: whitesmoke;
+    padding: 35px;
+    display: flex;
+    background-image: linear-gradient(90deg,#426980,#bad6ff);
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+
+.header h1
+{
+    cursor: pointer;
+}
+
+.header h1:hover
+{
+    color: rgb(172, 172, 172);
+}
+
+.header img 
+{
+    cursor: pointer;
+    width: 90px; 
+    height: 90px;
+}
+
+.content
+{
+    margin-top: 20px;
+    padding: 80px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagem
+{
+    border-radius: 6px;
+    width: 740px;
+    height: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form
+{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form
+{
+    box-shadow: 6px 6px 20px 6px rgb(145, 145, 145);
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 226, 226);
+    width: 740px;
+    height: 480px;
+}
+
+.email
+{
+    margin: 10px;
+    font-size: 18;
+}
+
+.senha
+{
+    margin: 10px;
+    font-size: 18;
+}
+
+input[type="email"], input[type="password"]
+{
+    outline: none;
+    padding: 20px;
+    display: grid;
+    border-radius: 6px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+input:hover
+{
+    border-color: rgb(44, 130, 241);
+}
+
+input::placeholder
+{
+    font-size: 17;
+}
+
+.entrar
+{
+    border: none;
+    background-color: rgb(90, 212, 171);
+    border-radius: 6px;
+    justify-content: center;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    margin: auto;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.entrar:hover
+{
+    background-color: rgb(92, 185, 154);
+    border-color: rgb(92, 185, 154);
+}
+
+.button_content
+{
+    font-size: 16;
+    cursor: pointer;
+}
+
+.arrow
+{
+    background-color: transparent;
+    width: 25px;
+    height: 23px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.cadastro
+{
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.header2
+{
+    align-items: center;
+    background-image: linear-gradient(90deg,#426980,#bad6ff);
+    height: 40px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
